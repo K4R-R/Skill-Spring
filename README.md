@@ -1,21 +1,11 @@
-## Pitch Point
+# **Skill Spring**
 
-**Pitch Point** is a dynamic platform designed to connect startup founders with potential investors. It offers a comprehensive suite of features tailored to the needs of each user type, including founders, investors, and guests. 
+**Skill Spring** is a platform designed to help students track their internship and job applications. The platform also provides insights into the skills they need to improve in order to qualify for their desired roles.
 
-### Features
+### **Implemented Features**
 
-- **Role-Based Dashboards**: Personalized dashboards for founders, investors, and guests, providing relevant information and tools for each role.
-  
-- **User Authentication**: Secure login and registration using JWT for authentication and bcrypt for password hashing.
-  
-- **Real-Time Messaging**: Facilitates seamless communication between users through real-time messaging powered by Socket.io.
-  
-- **Investor Preference Selector**: Advanced tool for investors to filter and discover startups based on their specific interests and criteria.
-  
-- **Connection Requests**: Allows investors and founders to connect and interact within the platform.
-  
-- **Blog Posting**: Users can create, edit, and manage blogs, contributing to the community with insights and updates.
+- **Application Tracker**:  
+  Students can input and track the details of their job or internship applications, including deadlines, status, and company contact information.
 
-### Deployment
-
-Explore the live application here: [Pitch Point](https://pitch-point.netlify.app/login)
+- **User Authentication**:  
+  Secure login and registration process using JWT for authentication and bcrypt for password hashing to ensure secure access.

@@ -6,9 +6,9 @@ const app=express();
 const http=require('http').Server(app);
 
 const userRoutes = require('./routes/userRoutes');
-const founderRoutes = require('./routes/founderRoutes');
-const blogRoutes = require('./routes/blogRoutes');
-const investorRoutes = require('./routes/investorRoutes');
+const founderRoutes = require('./routes/applicationRoutes');
+const blogRoutes = require('./routes/applicationRoutes');
+const investorRoutes = require('./routes/skillRoutes');
 const connectionRoutes = require('./routes/connectionRoutes');
 const chatRoutes = require('./routes/chatRoutes');
 

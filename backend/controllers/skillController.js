@@ -1,4 +1,4 @@
-const InvestorPreferences = require('../models/investorModel');
+const InvestorPreferences = require('../models/skillModel');
 const Users = require('../models/userModel');
 
 const addInvestor = async (req,res) => {

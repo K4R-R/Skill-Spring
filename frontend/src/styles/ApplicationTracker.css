@@ -1,0 +1,73 @@
+.add-blog{
+   color: #EEEEEE;
+   font-size: 3rem;
+   text-align: center;
+   margin-top: 4rem;
+}
+
+.add-blog h1{
+   background-color: #1c407e;
+   color: #EEEEEE ;
+   font-weight: 500;
+   display: inline;
+   padding: 1rem 4rem;
+   border-radius: 20rem;
+}
+
+.add-blog input {
+   margin: 4rem;
+   width: 60%;
+   text-align: center;
+   font-size: 3.5rem;
+   font-family: Beiruti,arial;
+   font-weight: 600;
+   padding: 2rem;
+   border: .4rem solid #EB5B00;
+   outline: none;
+   border-radius: 20rem;
+   color: #1c407e;
+   background-color: #FFE6C7;
+}
+
+.add-blog textarea{
+   width: 60%;
+   height: 45vh;
+   font-family: Beiruti,arial;
+   font-size: 3rem;
+   color: #1c407e;
+   font-weight: 500;
+   border: .4rem solid #EB5B00;
+   border-radius: 3rem;
+   outline: none;
+   padding: 2rem;
+   background-color: #FFE6C7;
+   &::-webkit-scrollbar {
+      width: 1.5rem;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #EB5B00;
+      border: .2rem solid #FFE6C7;
+      border-radius: 1rem; 
+    }
+}
+
+.add-blog button {
+   margin: 2rem 3rem;
+   width: 10%;
+   height: 6vh;
+   font-family: Beiruti,arial;
+   font-size: 3.5rem;
+   font-weight: 600;
+   border: .4rem solid #EEEEEE;
+   color: #EEEEEE;
+   background-color: #1c407e;
+   border-radius: 20rem;
+   transition: background-color 0.3s ease, color 0.3s ease,transform .3s ease;
+   min-width: 15rem;
+}
+.add-blog button:hover{
+   background-color: #EB5B00;
+   color: #EEEEEE;
+   transition-delay: .1s;
+   transform: scale(1.1);
+}

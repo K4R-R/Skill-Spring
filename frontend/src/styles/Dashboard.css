@@ -1,0 +1,230 @@
+.dashboard h1{
+   color: #EEEEEE;
+   font-weight: 400;
+   margin: 1% 5%;
+   margin-bottom: 3%;
+   padding: 1.5rem;
+   font-size: 5rem;
+   font-weight: 500;
+   border-radius: 10rem;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.dashboard h1 p{
+   background-color: #1c407e;
+   border-radius: 10rem;
+   padding: 2rem 4rem;
+   min-width: 40rem;
+   margin-top: 1%;
+}
+
+.founder-dash{
+   color: #EEEEEE;
+   text-align: center;
+   margin-top: 5rem;
+}
+
+.founder-dash .startup-name input {
+   background-color: #1c407e;
+   color: #EEEEEE;
+   width: 70%;
+   font-family: Beiruti,arial;
+   font-size: 5rem;
+   font-weight: 500;
+   border: none;
+   outline: none;
+   border-radius: 20rem;
+   text-align: center;
+   padding: 2rem;
+   margin: 1% 0;
+   transition: background-color 0.3s ease,color 0.3s ease;
+}
+.founder-dash .startup-name input:focus, .founder-dash .startup-name input:hover {
+   background-color: #EB5B00;
+   color: #FFF;
+}
+
+.form-selects{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.form-selects > *{
+   background-color: rgba(0, 0, 0, 0);
+   color: #EEEEEE;
+   width: 30%;
+   margin: 3% 5%;
+   text-align: center;
+   padding: 1rem 0;
+   font-family: Beiruti,arial;
+   font-size: 3.5rem;
+   font-weight: 500;
+   border: .5rem solid #1c407e;
+   outline: none;
+   border-radius: 20rem;
+   cursor: pointer;
+   transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.form-selects option{
+   font-size: 2.5rem;
+   text-align: center;
+}
+.form-selects select:hover{
+   background-color: #1c407e;
+   transition-delay: .1s;
+ }
+ .form-selects select:focus{
+   background-color: #EB5B00;
+   border-color: #EB5B00;
+ }
+
+.busiInfoForm button{
+   margin: 7%;
+   margin-top: 3%;
+   width: 10%;
+   font-family: Beiruti,arial;
+   font-size: 3.5rem;
+   font-weight: 500;
+   padding: 1rem;
+   border: .4rem solid #EEEEEE;
+   color: #EEEEEE;
+   background-color: #1c407e;
+   border-radius: 20rem;
+   transition: background-color 0.3s ease, color 0.3s ease,transform .3s ease,border-color .3s ease;
+   min-width: 15rem;
+}
+.busiInfoForm button:hover{
+   color: white;
+   background-color: #EB5B00;
+   border-color: #EB5B00;
+   transform: scale(1.07);
+
+}
+
+.invest-form{
+   color: #EEEEEE;
+   font-size: 3rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.invest-form div{
+   margin: 2% 6%;
+}
+
+.invest-form h3{
+   font-size: 6rem;
+   margin: 0% 0;
+   font-weight: 500;
+   padding-right: 4rem;
+}
+
+.options-container{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: left;
+   margin: 0 6%;
+}
+
+.options-container div{
+   cursor: pointer;
+   font-size: 3.5rem;
+   margin: 2%;
+   padding: 1rem 4rem;
+   border: .4rem solid #1c407e;
+   color: #2854a0;
+   border-radius: 10rem;
+}
+.options-container div:hover{
+   background-color: #1c407e;
+   color: #EEEEEE;
+}
+
+.options-container .selected{
+   background-color: #EB5B00;
+   border-color: #EB5B00;
+   color: #EEEEEE;
+}
+.options-container .selected:hover{
+   background-color: #f1734c;
+   border-color: #f1734c;
+}
+
+.range-slider div{
+   padding: 0;
+}
+.range-slider div input{
+   border: none;
+   background-color: rgba(0, 0, 0, 0);
+   font-family: Beiruti,arial;
+   font-size: 4rem;
+   outline: none;
+   text-align: center;
+   color: #EEEEEE;
+   padding: 1rem;
+   border-radius: 10rem;
+}
+
+input[type="range"] {
+   width: 30%;
+   margin: 0 5%;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+   cursor: pointer;
+   background: #EEEEEE;
+   height: 2.6rem;
+   border-radius: 5rem;
+   padding: .2rem;
+ }
+
+ .invest-form button{
+   margin:auto;
+   margin-bottom: 5rem;
+   width: 10%;
+   font-family: Beiruti,arial;
+   font-size: 3.5rem;
+   font-weight: 500;
+   padding: 1rem;
+   border: .4rem solid #EEEEEE;
+   color: #EEEEEE;
+   background-color: #1c407e;
+   border-radius: 20rem;
+   transition: background-color 0.3s ease, color 0.3s ease,transform .3s ease,border-color .3s ease;
+   min-width: 15rem;
+}
+.invest-form button:hover{
+   color: #EEEEEE;
+   background-color: #EB5B00;
+   border-color: #EB5B00;
+   transform: scale(1.07);
+}
+.rupee-symbol {
+   color: #EEEEEE;
+   font-size: 4rem;
+   position: relative;
+   left: 10rem;
+}
+
+@media (max-width: 500px) {
+   .dashboard h1 p{
+      width: 100%;
+      border-radius: 5rem;
+      font-size: 4rem;
+   }
+}
+
+@media (max-width: 500px) {
+   /* Your styles here */
+   .form-selects{
+      flex-direction: column;
+      align-items: center;
+   }
+   .form-selects select{
+      width: 70%;
+   }
+}

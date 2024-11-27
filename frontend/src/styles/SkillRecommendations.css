@@ -1,0 +1,78 @@
+.no-pref h1{
+   color: #EEEEEE;
+   font-size: 10rem;
+   text-align: center;
+   margin: 10%;
+   font-weight: 500;
+}
+
+.startups-container {
+   font-size: 3rem;
+   margin: 2%;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+   gap: 2%;
+}
+.startup-card{
+   background-color: #EB5B00;
+   padding: 4rem;
+   display: flex;
+   flex-direction: column;
+   border-radius: 4rem;
+   max-width: 500px;
+   transition: transform 0.3s ease;
+}
+.startup-card h2{
+   background-color: #FFE6C7;
+   color: #EB5B00;
+   margin: 0;
+   margin-bottom: 5%;
+   padding: 2rem;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 2rem;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+.startup-card p{
+   margin: 2% 2%;
+   font-size: 2.7rem;
+   font-weight: 500;
+   color: #EEEEEE;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.startup-card:hover{
+   transform: scale(1.05);
+}
+.startup-card:hover h2{
+   background-color: #EB5B00;
+   color: white;
+   transition-delay: .1s;
+}
+
+.startup-card .btns{
+   display: flex;
+   justify-content: center;
+}
+.startup-card .btns button{
+   margin: 0 1.5rem;
+   margin-top: 2rem;
+   font-family: Beiruti,arial;
+   font-size: 3rem;
+   font-weight: 600;
+   padding: 1rem 3rem;
+   color: #EB5B00;
+   background-color: #FFE6C7;
+   border-radius: 20rem;
+   cursor: pointer;
+   transition: transform 0.3s ease;
+   min-width: 18rem;
+}
+.startup-card .btns button:hover{
+   transform: scale(1.1);
+   transition-delay: .1s;
+}

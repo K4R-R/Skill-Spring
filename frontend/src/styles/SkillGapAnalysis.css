@@ -1,0 +1,231 @@
+body{
+   &::-webkit-scrollbar {
+      width: 1rem;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #EEEEEE;
+      border-radius: 1rem; 
+    }
+}
+
+.loading h1{
+   color: #EEEEEE;
+   font-size: 10rem;
+   text-align: center;
+   margin: 10%;
+   font-weight: 500;
+}
+
+.guest-dash{
+   color: #EEEEEE;
+   font-size: 3rem;
+   text-align: center;
+   margin-top: 4rem;
+}
+
+.all-blogs{
+   color: #EEEEEE;
+   font-size: 3rem;
+   text-align: center;
+   margin-top: 4rem;
+}
+
+.all-blogs h1{
+   background-color: #1c407e;
+   color: #EEEEEE;
+   font-weight: 400;
+   display: inline;
+   padding: 1rem 4rem;
+   border-radius: 20rem;
+}
+
+.blogs-container {
+   margin-top: 2%;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+   grid-auto-rows: minmax(300px, auto);
+}
+.blog-card{
+   background-color: #EB5B00;
+   padding: 4rem;
+   margin: 3%;
+   max-width: 500px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 4rem;
+   transition: transform 0.3s ease;
+}
+.blog-card div{
+   background-color: #FFE6C7;
+   color: #EB5B00;
+   margin: 0;
+   margin-bottom: 5%;
+   padding: 2rem;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 2rem;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+.blog-card p{
+   text-align: right;
+   margin-top: 2%;
+}
+.explore-card{
+   padding: 7rem;
+   font-size: 5rem;
+}
+
+.blog-card:hover{
+   cursor: pointer;
+   transform: scale(1.05);
+}
+.blog-card:hover div{
+   background-color: #EB5B00;
+   color: #EEEEEE;
+   transition-delay: .1s;
+}
+
+.add-card{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #EB5B00;
+   
+}
+.add-card h2{
+   font-size: 8rem;
+   font-weight: 500;
+   border-radius: 2rem;
+   padding: 2rem 1rem;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.full-blog{
+   color: #EEEEEE;
+   font-size: 3rem;
+   margin: 4%;
+}
+
+.full-blog h2{
+   background-color: #EEEEEE;
+   color: #1c407e;
+   font-size: 4rem;
+   padding: 2rem 5rem;
+   border-radius: 20rem;
+}
+.full-blog h3{
+   text-align: right;
+   font-size: 4rem;
+   margin: 2%;
+}
+.full-blog p{
+   margin: 2% 0;
+   font-size: 3.5rem;
+   line-height: 1.8;
+   word-spacing: .2rem;
+   border-radius: 4rem;
+   background-color: #060026;
+   padding: 5rem;
+}
+
+.edit-form {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, .5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .edit-form form{
+   background-color: #EB5B00;
+   border: .8rem solid #FFE6C7;
+   border-radius: 5rem;
+   width: 80vw;
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   padding: 4rem 2rem;
+ }
+ .edit-form form input{
+   font-family: Beiruti,arial;
+   font-size: 3.5rem;
+   font-weight: 600;
+   color: #1c407e;
+   background-color: #FFE6C7;
+   outline: none;
+   border-radius: 10rem;
+   padding: 1rem 3rem;
+   border: none;
+ }
+ .edit-form form textarea{
+   flex: 1;
+   font-family: Beiruti,arial;
+   font-size: 3rem;
+   font-weight: 500;
+   color: #1c407e;
+   background-color: #FFE6C7;
+   border: none;
+   outline: none;
+   border-radius: 3rem;
+   padding: 2rem;
+   margin-top: 2rem;
+   &::-webkit-scrollbar {
+      width: 2rem;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #EB5B00;
+      border: .2rem solid #FFE6C7;
+      border-radius: 2rem; 
+    }
+ }
+ .full-blog .btns{
+   display: flex;
+   justify-content: center;
+ }
+ .full-blog .btns button{
+   margin: 2rem;
+   width: 10%;
+   height: 6vh;
+   font-family: Beiruti,arial;
+   font-size: 3.5rem;
+   font-weight: 600;
+   border: .4rem solid #EEEEEE;
+   color: #EEEEEE;
+   background-color: #1c407e;
+   border-radius: 20rem;
+   transition: background-color 0.3s ease, color 0.3s ease,transform .3s ease;
+   min-width: 15rem;
+}
+.full-blog .btns button:hover{
+   background-color: #EB5B00;
+   color: #EEEEEE;
+   transition-delay: .1s;
+}
+
+.full-blog .edit-btns{
+   display: flex;
+   justify-content: center;
+ }
+ .full-blog .edit-btns button{
+   margin: 2rem;
+   width: 10%;
+   height: 6vh;
+   font-family: Beiruti,arial;
+   font-size: 3.5rem;
+   font-weight: 600;
+   border: none;
+   color: #EB5B00;
+   background-color: #FFE6C7;
+   border-radius: 20rem;
+   transition: transform .3s ease;
+   min-width: 15rem;
+}
+.full-blog .edit-btns button:hover{
+   transform: scale(1.1);
+}

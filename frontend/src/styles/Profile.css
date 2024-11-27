@@ -1,0 +1,61 @@
+.profile-container{
+   color: #EEEEEE;
+   font-size: 4rem;
+   text-align: center;
+   margin-top: 4rem;
+}
+
+.profile-container h1{
+   background-color: #1c407e;
+   color: #EEEEEE;
+   font-weight: 400;
+   display: inline;
+   padding: 1rem 4rem;
+   border-radius: 20rem;
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   width: 80rem;
+   margin: auto;
+   padding: 5rem;
+   text-align: left;
+}
+.info h2{
+   padding: 2rem;
+   font-weight: 400;
+}
+
+.info .btn{
+   margin: auto;
+   margin-top: 4rem;
+   height: 7vh;
+   font-family: Beiruti,arial;
+   font-size: 4rem;
+   font-weight: 600;
+   border: .4rem solid #EEEEEE;
+   color: #EEEEEE;
+   background-color: #1c407e;
+   border-radius: 20rem;
+   transition: background-color 0.3s ease, color 0.3s ease,transform .3s ease;
+   min-width: 15rem;
+}
+
+.info .btn:hover{
+   background-color: #EB5B00;
+   color: #EEEEEE;
+   transition-delay: .1s;
+   transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+   /* Your styles here */
+   .profile-container h1{
+      font-size: 5rem;
+   }
+   .info{
+      width: 100%;
+      font-size: 3rem;
+   }
+}
